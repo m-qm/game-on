@@ -1,14 +1,29 @@
 @font-face {
-    font-family: 'commodore';
-    src: url('../font/C64_Pro_Mono-STYLE.eot');
-    src: url('../font/C64_Pro_Mono-STYLE.eot?#iefix') format('embedded-opentype'),
-         url('../font/C64_Pro_Mono-STYLE.woff') format('woff'),
-         url('../font/C64_Pro_Mono-STYLE.ttf') format('truetype'),
-         url('../font/C64_Pro_Mono-STYLE.svg#myfont') format('svg');
+    font-family: "commodore";
+    src: url("../font/C64_Pro_Mono-STYLE.eot");
+    src: url("../font/C64_Pro_Mono-STYLE.eot?#iefix") format("embedded-opentype"),
+        url("../font/C64_Pro_Mono-STYLE.woff") format("woff"), url("../font/C64_Pro_Mono-STYLE.ttf") format("truetype"),
+        url("../font/C64_Pro_Mono-STYLE.svg#myfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "amiga";
+    src: url("../font2/amiga4ever.ttf") format("truetype");
+    /* src: url("../font2/amiga4ever.eot?#iefix") format("embedded-opentype"); */
     font-weight: normal;
     font-style: normal;
 }
 
 /* main.css */
-body,html {margin:0;padding:0;background-color:white; text-align:center;}
-#file_browser {display:none;}
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+}
+#file_browser {
+    display: none;
+}
